@@ -1,25 +1,19 @@
 /* gradient fallbacks taken from csstricks.com */
+
 body {
-  background-color: #97c93c;
-  
-  /* SVG fallback for IE 9 (could be data URI, or could use filter) */
-  background-image: url(fallback-gradient.svg);
-  
-  /* Safari 4, Chrome 1-9, iOS 3.2-4.3, Android 2.1-3.0 */
-  background-image: -webkit-gradient(linear, left top, right top, from(#d1d2d4), to(#97c93c));
-  
-  /* Safari 5.1, iOS 5.0-6.1, Chrome 10-25, Android 4.0-4.3 */
-  background-image: -webkit-linear-gradient(left, #d1d2d4, #97c93c);
-  
-  /* Firefox 3.6 - 15 */
-  background-image: -moz-linear-gradient(left, #d1d2d4, #97c93c);
-  
-  /* Opera 11.1 - 12 */
-  background-image: -o-linear-gradient(left, #d1d2d4, #97c93c);
-  
-  /* Opera 15+, Chrome 25+, IE 10+, Firefox 16+, Safari 6.1+, iOS 7+, Android 4.4+ */
-  background-image: linear-gradient(to right, #d1d2d4, #97c93c);
-  margin: 0px;
-  overflow: hidden;
-	
+	background-color: #97c93c;
+	/* SVG fallback for IE 9 (could be data URI, or could use filter) */
+	background-image: url(fallback-gradient.svg);
+	/* Safari 4, Chrome 1-9, iOS 3.2-4.3, Android 2.1-3.0 */
+	background-image: -webkit-gradient(linear, left top, right top, from(#97c93c), to(#d1d2d4));
+	/* Safari 5.1, iOS 5.0-6.1, Chrome 10-25, Android 4.0-4.3 */
+	background-image: -webkit-linear-gradient(left, #97c93c, #d1d2d4);
+	/* Firefox 3.6 - 15 */
+	background-image: -moz-linear-gradient(left, #97c93c, #d1d2d4);
+	/* Opera 11.1 - 12 */
+	background-image: -o-linear-gradient(left, #97c93c, #d1d2d4);
+	/* Opera 15+, Chrome 25+, IE 10+, Firefox 16+, Safari 6.1+, iOS 7+, Android 4.4+ */
+	background-image: linear-gradient(to right, #97c93c, #d1d2d4);
+	margin: 0px;
+	overflow: hidden;
 }
